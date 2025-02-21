@@ -1,7 +1,7 @@
-package com.mehmetsukrukavak.SpringSecurity;
+package com.mehmetsukrukavak.SpringSecurity.controller;
 
+import com.mehmetsukrukavak.SpringSecurity.model.Student;
 import jakarta.servlet.http.HttpServletRequest;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.csrf.CsrfToken;
 import org.springframework.web.bind.annotation.*;
 
